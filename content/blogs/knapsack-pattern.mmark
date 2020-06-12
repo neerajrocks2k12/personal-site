@@ -1,0 +1,36 @@
++++
+authors = [
+    "Hugo Authors"
+]
+title = "KnapSack Pattern"
+date = "2020-06-12"
+description = "KnapSack Pattern tutorial"
+tags = [
+    "algorithm",
+    "dynamic-programming",
+    "java",
+]
+images = [
+    "pair-programming.png",
+]
+math = true
++++
+
+# 0/1 Knapsack Pattern
+0/1 Knapsack pattern is one of the most common classical DP algorithm but it is quite interesting as many tricky algorithmic problems 
+could be/are built on top of this core concept. Let us formalize our definition:  
+
+> #### Problem: 
+> `Given a Knapsack of maximum capacity` $$W$$ `and` $$N$$ `items each with its weight and value, we want to select the items to carry in the Knapsack such that the final contents has the maximum value.`
+
+#### Understanding the problem statement: 
+
+To solve this problem first we need to understand the concept of 0/1 which basically implies that for each item we have only two choices &mdash; either we pick it or we don't. 
+Further, we can pick an item only once i.e no duplicates allowed. This is what the constraint `0/1` implies
+
+
+
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css" integrity="sha384-dbVIfZGuN1Yq7/1Ocstc1lUEm+AT+/rCkibIcC/OmWo5f0EA48Vf8CytHzGrSwbQ" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js" integrity="sha384-2BKqo+exmr9su6dir+qCw08N2ZKRucY4PrGQPPWU1A7FtlCGjmEGFqXCv5nyM5Ij" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
